@@ -1,0 +1,377 @@
+.teacher_container {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding-top: 270px;
+  }
+  // padding-left: 40px;
+  // padding: 329px 20px 130px;
+}
+
+@media screen and (min-width: 320px) {
+  .teacher_container {
+    width: 320px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .list {
+      list-style: none;
+      padding-inline-start: 0px;
+    }
+
+    .teacher-title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 130%;
+      /* or 60px */
+
+      letter-spacing: 0.03em;
+
+      color: #111518;
+    }
+    .teacher-name {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.08em;
+
+      color: #111518;
+    }
+
+    .teacher-name::after {
+      display: block;
+      content: '';
+      margin-top: 15px;
+      width: 100%;
+      height: 1px;
+      background-color: black;
+    }
+
+    .teacher-title-container {
+    }
+
+    .teacher-list-skilz {
+      font-family: Montserrat;
+      position: relative;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.06em;
+      padding-bottom: 20px;
+      padding-left: 26px;
+
+      color: #111518;
+    }
+
+    .teacher-svg-position {
+      position: relative;
+    }
+
+    .teacher-svg {
+      position: absolute;
+      top: 0%;
+      width: 24px;
+      height: 20px;
+      fill: #ff6b09;
+    }
+
+    .teacher-list-title {
+      font-family: Montserrat;
+      font-weight: 500;
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        font-size: 12px;
+        line-height: 1.67;
+      }
+      font-size: 18px;
+      line-height: 28px;
+      padding-bottom: 20px;
+
+      color: #b9b9b9;
+    }
+
+    .teacher-list-container {
+      width: 253px;
+    }
+
+    .teacher-list-container-title {
+      width: 279px;
+    }
+
+    .teacher-list-container-title::before {
+      display: block;
+      content: '';
+      width: 20px;
+      height: 3px;
+      margin-bottom: 20px;
+      background-color: #ff6b09;
+    }
+
+    .teacher-img {
+      width: 243px;
+      height: 305px;
+    }
+
+    .teacher-description-container {
+      width: 280px;
+    }
+
+    .teacher-link {
+      padding-bottom: 50px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ff6b09;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .teacher_container {
+    width: 768px;
+    padding-top: 302px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .list {
+      list-style: none;
+      padding-inline-start: 0px;
+    }
+
+    .teacher-title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 130%;
+      /* or 60px */
+
+      letter-spacing: 0.03em;
+
+      color: #111518;
+    }
+
+    .teacher-name {
+      margin: 0 auto;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 37px;
+      /* identical to box height */
+
+      letter-spacing: 0.08em;
+
+      color: #111518;
+    }
+
+    .teacher-name::after {
+      display: block;
+      content: '';
+      margin-top: 15px;
+      width: 100%;
+      height: 1px;
+      background-color: black;
+    }
+
+    .teacher-title-container {
+      padding-left: 41px;
+    }
+
+    .teacher-list-skilz {
+      position: relative;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.06em;
+      padding-bottom: 10px;
+      padding-left: 26px;
+
+      color: #111518;
+    }
+
+    .teacher-svg-position {
+      position: relative;
+    }
+
+    .teacher-svg {
+      position: absolute;
+      top: 0%;
+      width: 24px;
+      height: 20px;
+      fill: #ff6b09;
+    }
+
+    .teacher-list-title {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      padding-bottom: 10px;
+
+      color: #b9b9b9;
+    }
+
+    .teacher-list-container {
+      width: 375px;
+    }
+
+    .teacher-list-container-title {
+      width: 401px;
+    }
+
+    .teacher-list-container-title::before {
+      display: block;
+      content: '';
+      width: 20px;
+      height: 3px;
+      margin-bottom: 20px;
+      background-color: #ff6b09;
+    }
+
+    .teacher-img {
+      width: 243px;
+      height: 305px;
+    }
+
+    .teacher-description-container {
+      display: flex;
+    }
+
+    .teacher-link {
+      padding-bottom: 137px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ff6b09;
+    }
+  }
+}
+
+@media screen and (min-width: 1344px) {
+  .teacher_container {
+    width: 1327px;
+    padding-top: 328px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    // padding-left: 180px;
+
+    .list {
+      list-style: none;
+      padding-inline-start: 0px;
+    }
+    .teacher-title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 46px;
+      line-height: 130%;
+      /* or 60px */
+
+      letter-spacing: 0.03em;
+
+      color: #111518;
+    }
+
+    .teacher-name {
+      margin: 0 auto;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 37px;
+      /* identical to box height */
+
+      letter-spacing: 0.08em;
+
+      color: #111518;
+    }
+
+    .teacher-name::after {
+      display: block;
+      content: '';
+      margin-top: 15px;
+      width: 100%;
+      height: 1px;
+      background-color: black;
+    }
+
+    .teacher-title-container {
+      padding-left: 31px;
+    }
+
+    .teacher-list-skilz {
+      font-family: Montserrat;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.06em;
+      padding-bottom: 20px;
+      padding-left: 59px;
+
+      color: #111518;
+    }
+
+    .teacher-svg-position {
+      position: relative;
+    }
+
+    .teacher-svg {
+      position: absolute;
+      top: 0%;
+      width: 24px;
+      height: 20px;
+      fill: #ff6b09;
+    }
+
+    .teacher-list-title {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      padding-bottom: 20px;
+
+      color: #b9b9b9;
+    }
+
+    .teacher-list-container {
+      padding-top: 29px;
+      width: 530px;
+    }
+
+    .teacher-list-container-title {
+      width: 641px;
+      margin: 0 auto;
+    }
+
+    .teacher-list-container-title::before {
+      display: block;
+      content: '';
+      width: 20px;
+      height: 3px;
+      margin-bottom: 20px;
+      background-color: #ff6b09;
+    }
+
+    .teacher-img {
+      width: 530px;
+      height: 667px;
+    }
+
+    .teacher-description-container {
+      display: flex;
+    }
+
+    .teacher-link {
+      padding-bottom: 137px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      color: #ff6b09;
+    }
+  }
+}

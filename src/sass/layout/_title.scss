@@ -1,0 +1,43 @@
+.program_title
+{   
+    margin: 0 auto;
+    margin-bottom: 3px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: $title-white-color;
+    text-align: center;
+}
+.whyWe_title{
+    margin-top: 50px;
+    width: 180px;
+    font-size: 20px;
+    line-height: 1.3;
+    color: $title-white-color;
+}
+@media screen and (min-width:768px){
+    .program_title{
+        margin-bottom: 30px;
+        font-size: 26px;
+        text-align: left;
+    }
+    .whyWe_title{
+        margin-top: 189px;
+        margin-left: 199px;
+        margin-right: 199px;
+        width: 370px;
+        font-size: 26px;
+        line-height: 1.308;
+    }
+}
+@media screen and (min-width:1200px){
+    .program_title{
+        margin-top: 60px;
+        font-size: 40px;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+    .whyWe_title{
+       display: none;
+    }
+}

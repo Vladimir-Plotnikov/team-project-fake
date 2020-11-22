@@ -1,0 +1,103 @@
+.features {
+  padding-top: 77px;
+  position: relative;
+  padding-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  @media screen and (min-width: 1344px) {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    justify-content: space-between;
+  }
+
+  &-list {
+    list-style-type: none;
+    padding-left: 36px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      padding-left: 0px;
+    }
+  }
+  &-icon {
+    fill: $secondary-text-color;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    @media screen and (min-width: 1344px) {
+      width: 40px;
+      height: 48px;
+      left: 40px;
+    }
+  }
+  &-text {
+    position: absolute;
+    left: 68px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
+
+    letter-spacing: 0.08em;
+    @media screen and (min-width: 1344px) {
+      font-size: 20px;
+      line-height: 1.64;
+      width: 366px;
+    }
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+
+    width: 59px;
+    height: 60px;
+    border: 2px solid $secondary-text-color;
+    border-right: 0;
+    position: relative;
+    @media screen and (min-width: 1344px) {
+      width: 100px;
+      height: 100px;
+    }
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      height: 8px;
+      width: 2px;
+      background: $secondary-text-color;
+    }
+    &:before {
+      right: 0;
+      top: 0;
+    }
+
+    &:after {
+      right: 0;
+      bottom: 0;
+    }
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.08em;
+    @media screen and (max-width: 767px) {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      margin-right: 170px;
+    }
+    @media screen and (min-width: 1344px) {
+      &:not(:last-child) {
+        margin-right: 356px;
+      }
+    }
+  }
+}
