@@ -1,11 +1,10 @@
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MainPage</title>
   <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/master/modern-normalize.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./src/sass/main.scss" />
+  <link rel="stylesheet" href="/src/sass/main.css" />
 </head>
 <section class="reviews">
   <div class="container">
@@ -18,21 +17,21 @@
           <picture>
             <source
               srcset="
-                ./images/rewies/user-tablet.jpg    1x,
-                ./images/rewies/user-tablet@2x.jpg 2x
+                /src/images/rewies/user-tablet.jpg    1x,
+                /src/images/rewies/user-tablet@2x.jpg 2x
               "
               media="(min-width:768px)"
             />
             <img
               class="user-foto"
-              src="./images/rewies/user.jpg"
+              src="/src/images/rewies/user-tablet.jpg"
               alt="Девушка"
             />
           </picture>
         </div>
         <div class="rewie-svg">
           <svg class="rewie-svg-icon">
-            <use href="./images/sprite_min.svg#vk"></use>
+            <use href="/src/images/sprite_min.svg#vk"></use>
           </svg>
         </div>
       </div>
@@ -54,65 +53,65 @@
         </p>
       </div>
     </div>
-    <svg class="icon-rewies1" width="20" height="20">
-      <use href="./images/sprite_min.svg#icon-Arrow-1"></use>
-    </svg>
 
     <div class="rewies-fotos">
       <ul class="rewies-fotos-list">
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user1.jpg"
+            src="/src/images/rewies/user1.jpg"
             alt="Девушка в черном"
           />
         </li>
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user2.jpg"
+            src="/src/images/rewies/user2.jpg"
             alt="Девушка в голубом"
           />
         </li>
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user3.jpg"
+            src="/src/images/rewies/user3.jpg"
             alt="Девушка темная"
           />
         </li>
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user4.jpg"
+            src="/src/images/rewies/user4.jpg"
             alt="Девушка русая"
           />
         </li>
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user5.jpg"
+            src="/src/images/rewies/user5.jpg"
             alt="Девушка рыжая"
           />
         </li>
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user6.jpg"
+            src="/src/images/rewies/user6.jpg"
             alt="Девушка улыбается"
           />
         </li>
         <li class="rewies-fotos-list-icon">
           <img
             class="rewies-img"
-            src="./images/rewies/user7.jpg"
+            src="/src/images/rewies/user7.jpg"
             alt="Девушка в очках"
           />
         </li>
       </ul>
     </div>
     <svg class="icon-rewies2" width="20" height="20">
-      <use href="./images/sprite_min.svg#icon-Arrow-2"></use>
+      <use href="/src/images/sprite_min.svg#icon-Arrow-2"></use>
     </svg>
   </div>
+  <svg class="icon-rewies1" width="20" height="20">
+    <use href="/src/images/sprite_min.svg#icon-Arrow-1"></use>
+  </svg>
 </section>

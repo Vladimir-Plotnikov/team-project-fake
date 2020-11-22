@@ -124,7 +124,22 @@
     }
   }
 }
+.div-rewies {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 688px;
+    }
 
+  @media screen and (min-width: 1344px) {
+    display: flex;
+    width: 1090px;
+    height: 370px;
+    background-color: brown;
+
+background:black;
+box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  }
+}
 .rewies-fotos {
   @media screen and (max-width: 767px) {
     width: 275px;
@@ -144,6 +159,7 @@
   &-list {
     display: flex;
     list-style: none;
+  }
   }
 }
 .icon-rewies1 {
@@ -197,14 +213,6 @@
   width: 30px;
   height: 30px;
   fill: #436eab;
-}
-.div-rewies {
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
-  @media screen and (min-width: 1344px) {
-    width: 1090px;
-  }
 }
 
 .reviews-link {
